@@ -1,0 +1,73 @@
+/* Av Alice fagerberg moment 1 webbutveckling 3*/
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+width:100%;
+font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
+}
+
+h1 {
+    margin:0 auto;
+    padding-top:150px;
+    padding-bottom:30px;
+    font-size:2em;
+    max-width:340px;
+    width:94%;
+    line-height: 1.2;
+}
+
+.abox{
+    margin:0 auto;
+    max-width:350px;
+    width:94%;
+    padding:20px;
+    background-color:rgb(224, 45, 0);
+
+}
+
+.info {
+    font-size:1.1em;
+    color:rgb(255, 246, 244);
+    padding-top:10px;
+    margin-top:8px;
+    border-top:1px solid rgb(223, 165, 165);
+}
+
+strong {
+    font-size:1.5em;
+    text-transform:uppercase;
+    color:rgb(255, 246, 244);
+    width:100%;
+}
+
+.go {
+    padding-top:10px;
+    margin:0 auto;
+    max-width:350px;
+    width:94%;
+}
+
+.go p {
+    padding-top:10px;
+    font-weight:bold;
+}
+
+.go a {
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px 10px 20px;
+    font-size:1em;
+    border-radius:5px;
+    background-color:rgb(65, 65, 65);
+    text-decoration: none;
+    color:white;
+    transition: all 0.3s;
+}
+
+.go a:hover {
+    background-color:black;
+}
